@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Hello on top of root</h1>
+    <!-- <h1>Hello on top of root</h1> -->
     <div id="root">
         <h5>Hello world</h5>
     </div>
@@ -22,9 +22,10 @@
         root.appendChild(heading)
     </script> -->
 
+    <!-- no need cdn link as we now use npm to install react -->
     <!-- cdn links to inject react into our project -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
     <!-- Create basic hello world program using react -->
     <!-- <script>
@@ -34,6 +35,7 @@
         // we can use this also to render
         // ReactDOM.render(heading, document.getElementById('root'))
     </script> -->
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
+
 </html>
